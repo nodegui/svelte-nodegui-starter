@@ -34,7 +34,10 @@
      * /// <reference path="../node_modules/@nodegui/svelte-nodegui/svelte-nodegui.d.ts" />
      * Remember to restart the Svelte Language Service after any significant changes to configuration.
     */
-    "files": ["./node_modules/@nodegui/svelte-nodegui/svelte-nodegui.d.ts"],
-    "include": ["src/**/*"],
+    "files": [
+        "./node_modules/@nodegui/svelte-nodegui/svelte-nodegui.d.ts",
+        "./assets.d.ts"
+    ],
+    "include": ["src/**/*", "assets/**/*"],
     "exclude": ["node_modules/*", "__sapper__/*", "public/*"]
 }
