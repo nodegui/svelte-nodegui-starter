@@ -2,7 +2,7 @@
 
 **Clone and run for a quick way to see Svelte NodeGui in action.**
 
-<img alt="logo" src="https://github.com/nodegui/react-nodegui-starter/raw/master/assets/demo.png" height="500" />
+<img alt="logo" src="https://github.com/nodegui/svelte-nodegui-starter/raw/master/assets/demo.png" height="500" />
 
 ## To Use
 
