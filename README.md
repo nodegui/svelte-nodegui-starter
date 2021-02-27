@@ -1,6 +1,6 @@
-# nodegui-starter
+# svelte-nodegui-starter
 
-**Clone and run for a quick way to see NodeGui in action.**
+**Clone and run for a quick way to see Svelte NodeGui in action.**
 
 ## To Use
 
@@ -12,18 +12,20 @@ From your command line:
 
 ```bash
 # Clone this repository
-git clone https://github.com/nodegui/nodegui-starter
+git clone https://github.com/nodegui/svelte-nodegui-starter
 # Go into the repository
-cd nodegui-starter
+cd svelte-nodegui-starter
 # Install dependencies
 npm install
-# Run the app
-npm start
+# Build the app in development mode (unminified; watch mode on)
+npm run dev
+# (From another terminal) Run the built app
+npm run start
 ```
 
 ## Resources for Learning NodeGui
 
-- [docs.nodegui.org](https://nodegui.github.io/nodegui) - all of NodeGui and React Desktop's documentation
+- [svelte.nodegui.org](https://svelte.nodegui.org) - all of Svelte NodeGui's documentation
 
 ## Packaging app as a distributable
 
@@ -51,9 +53,9 @@ This will produce the js bundle along with assets inside the `./dist` directory
 npx nodegui-packer --pack ./dist
 ```
 
-This will build the distributable using @nodegui/packer based on your template. The output of the command is found under the build directory. You should gitignore the build directory.
+This will build the distributable using `@nodegui/packer` based on your template. The output of the command is found under the build directory. You should gitignore the build directory.
 
-More details about packer can be found here: https://github.com/nodegui/packer
+More details about `@nodegui/packer` can be found here: https://github.com/nodegui/packer
 
 ## License
 
