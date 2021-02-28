@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@nodegui/nodegui": "^0.25.0",
-    "@nodegui/svelte-nodegui": "0.0.1-alpha.4",
+    "@nodegui/svelte-nodegui": "*",
     "open": "^7.4.2",
     "phin": "^3.5.1"
   },
