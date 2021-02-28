@@ -34,7 +34,7 @@
     windowTitle="Hello 👋🏽"
 >
     <view style="flex: 1;">
-        <text id="welcome-text">Welcome to NodeGUI 🐕</text>
+        <text id="welcome-text">Welcome to Svelte NodeGUI 🐕</text>
         <text id="step-1">1. Play around</text>
         <StepOne />
         <text id="step-2">2. Debug</text>
