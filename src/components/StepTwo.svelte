@@ -8,8 +8,8 @@
 
 <!-- TODO: Incorporate @nodegui/svelte-nodegui-preprocessor so that we can remove this namespace -->
 <svelte:options namespace="foreign"/>
-<view style="margin-horizontal: 20px; padding-horizontal: 10px;">
-    <text style="padding-right: 20px;" wordWrap={true}>
+<view style="margin-top: 8px; margin-horizontal: 16px; padding-horizontal: 8px;">
+    <text style="margin-bottom: 8px;" wordWrap={true}>
         {`
             <ol>
                 <li>
@@ -17,7 +17,7 @@
                 </li>
                 <br/>
                     <li>
-                        Next click on  "Open dedicated DevTools for Node"
+                        Next click on "Open dedicated DevTools for Node"
                     </li>
                     <br/>
                 <li>
@@ -30,6 +30,6 @@
       style="margin-horizontal: 20px; height: 40px;"
       on:clicked={onClicked}
     >
-        Open Svelte NodeGui docs
+        Open the Svelte NodeGUI docs
     </button>
 </view>
