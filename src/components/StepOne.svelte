@@ -14,7 +14,7 @@
           <center>
             <img src="${dogImg}" alt="doggy" />  
           </center>
-          <center>You can even use <i><strong>Rich HTML</strong></i> text like this if you want 😎</center>
+          <center>You can even use <i><strong>rich HTML text</strong></i> like this if you want 😎</center>
         </p>
         <hr />
       `}
