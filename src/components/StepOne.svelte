@@ -6,8 +6,7 @@
 <svelte:options namespace="foreign"/>
 <view style="margin-horizontal: 20px; padding-horizontal: 10px;">
     <text wordWrap={true}>
-        Edit App.svelte to make changes to this screen. Then come back to see your
-        changes. The app will restart with each change, thanks to Live Reload. 🔥
+        Edit App.svelte to make changes to this screen. Then come back to see your changes. The app will restart with each change, thanks to Live Reload. 🔥
     </text>
     <text>
       {`
