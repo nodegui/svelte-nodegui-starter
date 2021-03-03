@@ -25,8 +25,6 @@
     });
 </script>
 
-<!-- TODO: Incorporate @nodegui/svelte-nodegui-preprocessor so that we can remove this namespace -->
-<svelte:options namespace="foreign"/>
 <window
     bind:this={win}
     windowIcon={winIcon}

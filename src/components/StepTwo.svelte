@@ -6,8 +6,6 @@
     }
 </script>
 
-<!-- TODO: Incorporate @nodegui/svelte-nodegui-preprocessor so that we can remove this namespace -->
-<svelte:options namespace="foreign"/>
 <view style="margin-top: 8px; margin-horizontal: 16px; padding-horizontal: 8px;">
     <text style="margin-bottom: 8px;" wordWrap={true}>
         {`
