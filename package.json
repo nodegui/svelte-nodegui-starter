@@ -12,8 +12,8 @@
     "debug": "qode --inspect ./dist/index.js"
   },
   "dependencies": {
-    "@nodegui/nodegui": "^0.25.0",
-    "@nodegui/svelte-nodegui": ">=0.0.1-alpha.7",
+    "@nodegui/nodegui": "^0.30.2",
+    "@nodegui/svelte-nodegui": ">=0.0.2-alpha.2",
     "open": "^7.4.2",
     "phin": "^3.5.1"
   },
