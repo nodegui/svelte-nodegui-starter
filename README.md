@@ -13,8 +13,8 @@ Make sure you have met the requirements listed here: https://docs.nodegui.org/#/
 From your command line:
 
 ```bash
-# Clone this repository
-git clone https://github.com/nodegui/svelte-nodegui-starter
+# Copy files from starter repo
+npx degit https://github.com/nodegui/svelte-nodegui-starter
 # Go into the repository
 cd svelte-nodegui-starter
 # Install dependencies
