@@ -13,10 +13,10 @@ Make sure you have met the requirements listed here: https://docs.nodegui.org/#/
 From your command line:
 
 ```bash
-# Copy files from starter repo
-npx degit https://github.com/nodegui/svelte-nodegui-starter
+# Copy files from starter repo into a directory called "my-project"
+npx degit https://github.com/nodegui/svelte-nodegui-starter my-project
 # Go into the repository
-cd svelte-nodegui-starter
+cd my-project
 # Install dependencies
 npm install
 # Build the app in development mode (unminified; watch mode on)
